@@ -8,3 +8,4 @@ tests/
 .coverage
 coverage.xml
 .pytest_cache/
+.idea
