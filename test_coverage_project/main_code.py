@@ -40,12 +40,13 @@ conditions_list = [cc.conditions_get, cc.conditions_index, cc.conditions_slice]
 # аргументами из списка test_data_list для сравнения ожидаемого
 # вывода с фактическим
 
+
 def apply_func_in_loop(func, args_list, conditions):
     """accepts as input functions to be called from func_list"""
     for i, args in enumerate(args_list):
-        _, expected_val = conditions[i].split('==')
+        _, expected_val = conditions[i].split("==")
         result = func(*args)
-        print(f'Вызов функции {func.__name__} по условию: {conditions[i]}: результат = {result}')
+        print(f"Вызов функции {func.__name__} по условию: {conditions[i]}: результат = {result}")
 
 
 # Вызываем в цикле функцию  apply_func_in_loop с тестовыми данными и условиями
@@ -53,5 +54,4 @@ def apply_func_in_loop(func, args_list, conditions):
 def run(func_list):
     for i, func_list in enumerate(func_list):
         for func in func_list:
-
             apply_func_in_loop(func, test_data_list[i], conditions_list[i])

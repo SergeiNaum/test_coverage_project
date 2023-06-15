@@ -1,6 +1,6 @@
 def right_get(coll: list, index: int, default=None):
     """Correct Function Implementation"""
-    if (index >= len(coll) or index < 0):
+    if index >= len(coll) or index < 0:
         if default is not None:
             return default
         return None
@@ -10,7 +10,7 @@ def right_get(coll: list, index: int, default=None):
 
 def get_w1(coll: list, index: int, default=None):
     """Incorrect Function Implementation"""
-    if (index >= len(coll) or index < 0):
+    if index >= len(coll) or index < 0:
         if default is not None:
             return False
         return None
@@ -20,7 +20,7 @@ def get_w1(coll: list, index: int, default=None):
 
 def get_w2(coll: list, index: int, default=None):
     """Incorrect Function Implementation"""
-    if (index >= len(coll) or index < 0):
+    if index >= len(coll) or index < 0:
         if default is not None:
             return default
         return False
@@ -33,7 +33,7 @@ def get_w3(coll: list, index: int, default=None):
     if default is not None:
         return default
 
-    if (index >= len(coll) or index < 0):
+    if index >= len(coll) or index < 0:
         return default
 
     return coll[index]

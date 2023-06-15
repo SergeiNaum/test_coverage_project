@@ -7,16 +7,25 @@ repository = "https://github.com/SergeiNaum/test_coverage_project"
 readme = "README.md"
 packages = [{include = "test_coverage_project"}]
 
+
 [tool.poetry.dependencies]
 python = "^3.8.10"
 
 
 [tool.poetry.group.dev.dependencies]
 flake8 = "^6.0.0"
+black = "^23.3.0"
+
+
+[tool.black]
+line-length = 117
+single-quote = true
+
 
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
 
 [tool.poetry.scripts]
 run-project = "test_coverage_project.scripts.run_project:main"
