@@ -1,5 +1,5 @@
-### Hexlet tests and linter status:
-
+### tests and linter status:
+[![check](https://github.com/SergeiNaum/test_coverage_project/actions/workflows/check.yml/badge.svg?branch=sample)](https://github.com/SergeiNaum/test_coverage_project/actions/workflows/check.yml)
 
 # test_coverage_project
 
