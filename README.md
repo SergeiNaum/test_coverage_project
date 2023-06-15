@@ -20,7 +20,7 @@ Translated with www.DeepL.com/Translator (free version)
 
 ## Installation and first start
 
-```clone game from repository``` - 
+```clone game from repository``` -  git clone https://github.com/SergeiNaum/test_coverage_project.git
 
 ```installing dependencies``` - make install
 
