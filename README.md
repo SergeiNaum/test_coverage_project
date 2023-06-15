@@ -16,7 +16,6 @@ With the help of this project, by manipulating with the test cases filling, it i
 of correct and wrong function implementations to further write tests in which the function with the right
 realization should pass the test, while the other functions will not.
 
-Translated with www.DeepL.com/Translator (free version)
 
 ## Installation and first start
 
